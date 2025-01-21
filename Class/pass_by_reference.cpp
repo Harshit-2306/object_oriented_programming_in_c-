@@ -23,7 +23,7 @@ int main()
  g1.name = "BGMI";
  g1.storage = 1000;
 
- // print(g1);
+ print(g1);
  change(g1);
  print(g1);
 
