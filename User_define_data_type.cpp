@@ -6,6 +6,7 @@ class Student { // Student is a new data type
   int roll_no;
   float gpa;
 };
+
 int main()
 {
  Student s1;
