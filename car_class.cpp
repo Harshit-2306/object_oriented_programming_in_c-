@@ -11,7 +11,7 @@ public:
 
 void print(car c)
 {
- cout << c.name << " " << c.price << " " << c.seats << " " << c.type << " " << endl;
+ cout << c.name <<" "<< c.price <<" "<< c.seats <<" "<< c.type <<" "<< endl;
 };
 
 int main()
@@ -44,8 +44,8 @@ int main()
  print(c2);
  print(c3);
  print(c4);
- // cout<<c1.name<<" "<<c1.price<<" "<<c1.seats<<" "<<c1.type<< " "<<endl;
- // cout<<c2.name<<" "<<c2.price<<" "<<c2.seats<<" "<<c2.type<< " "<<endl;
- // cout<<c3.name<<" "<<c3.price<<" "<<c3.seats<<" "<<c3.type<< " "<<endl;
- // cout<<c4.name<<" "<<c4.price<<" "<<c4.seats<<" "<<c4.type<< " "<<endl;
+
+ return 0;
+
+
 }
