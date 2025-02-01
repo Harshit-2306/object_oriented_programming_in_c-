@@ -14,12 +14,9 @@ public:
  }
 };
 
-
 int main()
 {
  game g1("BGMI",1000);
- // g1.name = "BGMI";
- // g1.storage = 1000;
 
 cout<<g1.name<<" "<<g1.storage<<" "<<endl;
 
