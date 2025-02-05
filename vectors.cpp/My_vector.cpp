@@ -7,7 +7,7 @@ public:
  int size;
  int capacity;
 
- Vector()
+Vector()
  {
   size = 0;
   capacity = 1;
@@ -88,10 +88,9 @@ int main()
  v.print();
 
  v.remove();
- cout << v.size << " " << v.capacity << endl;
+ // cout << v.size << " " << v.capacity << endl;
  v.print();
 
  // cout << v.size << " " << v.capacity << endl;
-
  // cout << "element at index : " << v.get(5) << endl;
 }
