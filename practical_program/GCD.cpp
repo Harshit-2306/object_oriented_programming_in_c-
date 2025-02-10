@@ -4,7 +4,7 @@ int main()
 {
  int num1, num2, temp;
  int dividend, divisor, remainder;
- cout << "\n Enter the two numbers : ";
+ cout << "Enter the two numbers : ";
  cin >> num1 >> num2;
  if (num1 > num2)
  {
