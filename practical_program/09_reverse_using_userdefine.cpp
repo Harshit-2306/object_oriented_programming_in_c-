@@ -10,7 +10,7 @@ int reverse(int n)
   n = n / 10;
  }
  return rev;
- 
+
 }
 int main()
 {
@@ -20,3 +20,6 @@ int main()
  cout << "Reverse of the number is: " << reverse(num) << endl;
  return 0;
 }
+
+
+
