@@ -2,10 +2,11 @@
 using namespace std;
 class student
 {
-public:
+private:
  int rollL_no;
  string name;
 
+public:
  student(int r, string n, float m)
  {
   rollL_no = r;

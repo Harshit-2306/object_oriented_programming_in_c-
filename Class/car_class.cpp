@@ -8,7 +8,13 @@ public:
  int price;
  int seats;
  string type;
+
+ car()
+{
+}
+
 };
+
 
 void print(car c)
 {

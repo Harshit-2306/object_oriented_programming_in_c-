@@ -27,6 +27,7 @@ public:
   simplify();
   cout << num << "/" << deno << endl;
  }
+};
 void fraction::simplify()
 {
  cout<<"Simplifying the fraction: ";
@@ -34,7 +35,6 @@ void fraction::simplify()
  num = num / gcd;
  deno = deno / gcd; 
 }
-};
 int fraction::GCD(int a, int b)
 {
  if (b == 0)

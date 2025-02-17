@@ -19,7 +19,8 @@ public:
  int year_merged;
 
  Companies()
- {
+ { 
+  
  }
 
  Companies(string n, string l, string t, int em, int r, int pr, int as, int mar, int y, int pu, int pri, int ac, int mer)
@@ -66,5 +67,6 @@ int main()
  c2.assets = 2000000;
 
  cout<<c1.name<<"\t"<<c1.location<<"\t"<<c1.type<<"\t"<<c1.employees<<"\t"<<c1.revenue<<"\t"<<c1.profit<<"\t"<<c1.assets<<"\t"<<c1.market_value<<"\t"<<c1.year_founded<<"\t"<<c1.year_public<<"\t"<<c1.year_private<<"\t"<<c1.year_acquired<<"\t"<<c1.year_merged<<endl;
+ cout<<"\n\n";
  cout<<c2.name<<"\t"<<c2.location<<"\t"<<c2.type<<"\t"<<c2.employees<<"\t"<<c2.revenue<<"\t"<<c2.profit<<"\t"<<c2.assets<<"\t"<<endl;
 }
