@@ -1,5 +1,5 @@
-#include <iostream>
 using namespace std;
+#include <iostream>
 int main()
 {
  int n;
@@ -11,7 +11,7 @@ int main()
   if (n % i == 0)
   {
    cout << "The number is not prime" << endl;
-   exit(0);
+   exit;
   }
   else
   {

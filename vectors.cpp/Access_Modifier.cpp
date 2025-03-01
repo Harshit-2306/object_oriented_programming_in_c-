@@ -14,6 +14,26 @@ public:
   marks = m;
  }
 
+ string get_name()//getter
+ {
+  return name;
+ }
+
+ void set_name(string n)//setter
+ {
+  name = n;
+ }
+
+ int get_roll_no()//getter
+ {
+  return rollL_no;
+ }
+
+ void set_roll_no(int r)//setter
+ {
+  rollL_no = r;
+ }
+
  float get_marks()//getter
  {
   return marks;
@@ -34,4 +54,11 @@ int main()
  cout << s1.get_marks() << endl;
  s1.set_marks(98.9);
  cout << s1.get_marks() << endl;
+ cout << s1.get_roll_no() << endl;
+ s1.set_roll_no(50);
+ cout << s1.get_roll_no() << endl;
+ cout << s1.get_name() << endl;
+ s1.set_name("Harshit");
+ cout << s1.get_name() << endl;
+ return 0;
 }
