@@ -14,6 +14,11 @@ Vector()
   arr = new int[1];
  }
 
+ ~Vector()
+ {
+  delete[] arr;
+ }
+
  void add(int ele)
  {
   if (size == capacity)
@@ -24,6 +29,7 @@ Vector()
    {
     arr2[i] = arr[i];
    }
+   delete[] arr;
    arr = arr2;
   }
   arr[size++] = ele;
