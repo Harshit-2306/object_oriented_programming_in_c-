@@ -5,6 +5,7 @@ class student
 private:
  int rollL_no;
  string name;
+ float marks;
 
 public:
  student(int r, string n, float m)
@@ -44,8 +45,6 @@ public:
  marks = m;
 }
 
-private:
- float marks;
 };
 
 int main()
@@ -60,5 +59,7 @@ int main()
  cout << s1.get_name() << endl;
  s1.set_name("Harshit");
  cout << s1.get_name() << endl;
+ s1.set_name("virat");
+  cout << s1.get_name() << endl;
  return 0;
 }
