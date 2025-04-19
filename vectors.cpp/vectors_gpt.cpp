@@ -4,15 +4,15 @@
 int main() {
     std::vector<int> v;
 
-    v.push_back(10);  // Adds 10 to the end
-    v.push_back(20);  // Adds 20 to the end
-    v.push_back(30);  // Adds 30 to the end
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
 
-    std::cout << "Size: " << v.size() << std::endl;  // Output: 3
+    std::cout << "Size: " << v.size() << std::endl;
 
-    v.pop_back(); // Removes last element (30)
+    v.pop_back();
 
-    std::cout << "Size after pop_back: " << v.size() << std::endl;  // Output: 2
+    std::cout << "Size after pop_back: " << v.size() << std::endl;
 
     return 0;
 }
